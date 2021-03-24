@@ -1,3 +1,3 @@
-# KohSiXing.github.io
+# KSiXing.github.io
+Welcome to my website
 
-- Welcome to my website
