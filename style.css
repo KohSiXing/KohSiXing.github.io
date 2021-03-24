@@ -1,0 +1,458 @@
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('fonts/CaviarDreams-webfont.eot');
+    src: local('☺'), url('fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams-webfont.woff') format('woff'),
+         url('fonts/CaviarDreams-webfont.ttf') format('truetype'),
+         url('fonts/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('fonts/Caviar_Dreams_Bold-webfont.eot');
+    src: local('☺'), url('fonts/Caviar_Dreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Caviar_Dreams_Bold-webfont.woff') format('woff'),
+         url('fonts/Caviar_Dreams_Bold-webfont.ttf') format('truetype'),
+         url('fonts/Caviar_Dreams_Bold-webfont.svg#caviar_dreamsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsitalic';
+    src: url('fonts/CaviarDreams_Italic-webfont.eot');
+    src: local('☺'), url('CaviarDreams_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams_Italic-webfont.woff') format('woff'),
+         url('fonts/CaviarDreams_Italic-webfont.ttf') format('truetype'),
+         url('fonts/CaviarDreams_Italic-webfont.svg#caviar_dreamsitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'caviar_dreamsbold_italic';
+    src: url('fonts/CaviarDreams_BoldItalic-webfont.eot');
+    src: local('☺')url, ('fonts/CaviarDreams_BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams_BoldItalic-webfont.woff') format('woff'),
+         url('fonts/CaviarDreams_BoldItalic-webfont.ttf') format('truetype'),
+         url('fonts/CaviarDreams_BoldItalic-webfont.svg#caviar_dreamsbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Champagne &amp; Limousines';
+    src: url('fonts/fonts/Champagne_Limousines.eot');
+    src: url('fonts/Champagne_Limousines.eot?') format('eot'),
+         url('fonts/Champagne_Limousines.woff') format('woff'),
+         url('fonts/Champagne_Limousines.ttf') format('truetype'),
+         url('fonts/Champagne_Limousines.svg#Champagne&Limousines') format('svg');
+         font-weight:normal;
+         font-style:normal;} 
+
+@font-face {
+    font-family: 'Panton BlackCaps';
+    src: url('fonts/Panton_BlackCaps.otf');
+    src: url('fonts/Panton_BlackCaps.otf') format('opentype'),
+}
+
+html{
+	background-color: #101010;
+}
+
+h1 {
+    font-family: "Panton BlackCaps";
+    text-align: left;
+    margin: 0 auto; 
+    padding-top: 22%;
+    padding-bottom: 1%;
+    margin-left: 2%;
+	  font-size: 3.5em;
+    font-weight: 600;
+    color: #c69d53;
+}
+
+h2 {
+  font-family: "Arial Black";
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 120px;
+  color: rgb(198,157,83);
+}
+
+header {
+  position: fixed; /*In order to have sticky header*/
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  text-align: right;
+  background-color: rgba(0,0,0,0.7);
+}
+
+#header {
+  background-color: rgba(0,0,0,0);
+}
+
+header nav {
+  display: inline-block;
+  margin: 0.3em 0;
+}
+
+header nav a {
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style-type: none;
+  float: right;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 0.5em 1em 0 0;
+}
+
+header nav ul a {
+  font-family: 'caviar_dreamsbold';
+  font-weight: 500;
+  text-align: right;
+  display: inline-block;
+  letter-spacing: 1px;
+  color: rgba(255,255,255,0.7);
+}
+
+header nav ul a:hover,
+header nav ul a:active{
+  color: rgb(198,157,83);
+  transition: all 0.8s ease-in-out;
+}
+
+header nav ul .selected{
+  font-weight: 900;
+  color: rgb(198, 157, 83);
+}
+
+body {
+    font-family: "caviar_dreamsregular";
+    overflow-x: hidden;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    height: 100%;
+    color: #FFF;
+}
+
+/* Footer Element Styles*/
+footer {
+    float: left;
+    display: block;
+    width:100%;
+    margin-top: 1%;
+    color: #D8D8D8;
+    background-color: rgba(0,0,0,0.6);
+    padding: 2em 0;
+    text-align: center;
+}
+
+footer .sitemap {
+  padding: 0;
+}
+
+footer .sitemap li {
+  display: inline;
+  margin: 0 0.5em;
+}
+
+footer .sitemap a {
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 0.7em;
+  text-decoration: none;
+}
+
+footer .sitemap a:hover {
+  color: rgb(239, 215, 169);
+  transition: all 0.8s ease-in-out;
+}
+
+footer span {
+  display: block;
+  color: #D8D8D8;
+  font-size: 0.8em;
+}
+
+footer .registered {
+  font-family: 'caviar_dreamsbold';
+  margin: 1em 0;
+  letter-spacing: 1px;
+}
+
+
+hr{
+  width: 20px;
+  border: 1.5px solid rgb(230,192,123);
+}
+
+.cadre {
+  float: left;
+  display: inline;
+  width: 35%;
+  margin: 5px 7.5%;
+  padding-top: 4%;
+  padding-bottom: 10%;
+  /*background-color: #0D0D0D;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255,255,255,0.6);*/
+}
+
+/*Profile Pic of Cadre Members*/
+.cadre > img{
+  float: left;
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 25%;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.cadre > .info{
+  display: block;
+  text-align: center;
+}
+
+.cadre > .info > h3 {
+  font-family: 'caviar_dreamsbold';
+  font-size: 1.3em;
+  letter-spacing: 1.5px;
+  margin-top: 57%;
+  margin-bottom: 15px
+}
+
+.cadre > .info > h4 {
+  font-family: 'Champagne &amp; Limousines';
+  letter-spacing: 3px;
+  line-height: 1.6;
+  color: rgb(247,22,33);
+  margin-top: 8px;
+}
+
+.centerdiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flaticons{
+	font-family: 'caviar_dreamsbold';
+    float: left;
+    display: block;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    color: #D8D8D8;
+    letter-spacing: 1px;
+    font-weight: 600;
+    /*margin-left: 5%;*/
+    border-radius: 50%;
+    -webkit-filter: brightness(80%);
+	 filter: brightness(80%);
+}
+
+.flaticons:hover{
+  color: rgb(230,192,123);
+  transition: all 0.8s ease-in-out;
+}
+
+.flaticons > img {
+	margin-top: 20%;
+}
+
+/*When the area ard the icon is hovered in index page .sp.sect2, the icons will float up*/
+.flaticons:hover img{
+    -webkit-transform: translate(0,-7px);
+    transform: translate(0,-7px);
+    transition: 0.7s ease;
+}
+
+.social-icons {
+  color: #FFF;
+  font-size: 1.7rem;
+  padding: 0.5%;
+}
+
+.social-icons:hover {
+  /*color: rgb(198,157,83);*/
+  color: rgb(230,192,123);
+  transition: all 0.8s ease-in-out;
+}
+
+.sp {
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+.sp.index{
+    float: none;
+    background: -webkit-linear-gradient(to bottom,rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(Images/Map.png) no-repeat center center;
+    background: -moz-linear-gradient(to bottom,rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(Images/Map.png) no-repeat center center;
+    background: -o-linear-gradient(to bottom,rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(Images/Map.png) no-repeat center center;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(Images/Map.png) no-repeat center center;
+    height: 700px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.sp.sect2{
+  margin: 0 auto;
+  width:100%;
+  display: inline-block;
+  padding: 5% 0;
+}
+
+.wrapper{
+  float: left;
+  margin: 0 auto;
+  margin-left: 10%;
+  margin-bottom: 10%; 
+  width:80%;
+  min-height: 100%;
+}
+
+#founders {
+  width: 100%;
+  margin: 10px 0;
+}
+
+#greyify {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2.5%;
+  border: none;
+  border-bottom: 1px solid #2D2D2D; 
+}
+
+#slogan {
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 2%;
+    width:70%;
+}
+
+::selection{
+     color: #A4A4A4;
+}
+
+
+#canvas{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+  z-index: 1; /*Need to push to 1 so that the main navigation can be accessed*/
+}
+
+.mainnav > li > .icon {
+  display: none;
+  margin: -12px 0;
+  font-size: 30px;
+  border: 2px solid rgba(255,255,255,0.7);
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+.mainnav > li > .icon:hover {
+	color: rgba(198,157,83,0.9);
+	transition: all 0.8s ease-in-out;
+	border: 2px solid rgba(198,157,83,0.9);
+	box-shadow: 0px 0px 10px rgba(198,157,83,0.7);
+}
+
+
+@media screen and (max-width: 410px){
+	footer .sitemap li {
+		/*display: block;*/
+		display: none;
+		font-size: 1.2em;
+	}
+}
+
+
+@media screen and (max-width: 600px){
+  h1 {
+  	margin-top: 15%;
+  	font-size: 180%;
+  }
+
+  header {
+  	text-align: left;
+  	background-color: rgba(0,0,0,0.8);
+  }
+
+  #header {
+  	background-color: rgba(0,0,0,0.8);
+  }
+
+  .mainnav > li > a {
+  	display: none;
+  }
+
+  .mainnav > li > .icon {
+    display: block;
+    float: right;
+    text-align: right;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .mainnav.responsive {
+  	float: left;
+  }
+
+  .mainnav.responsive > li {
+  	clear: both;
+  	display: block;
+  	float: left;
+  }
+
+  .mainnav.responsive > li > .icon {
+    float: right;
+    text-align: right;
+  }
+
+  .mainnav.responsive > li:nth-child(2){
+  	margin-top: 30px;
+  }
+
+  .mainnav.responsive > li:nth-child(n + 2){
+  	line-height: 1.5;
+  }
+
+  .mainnav.responsive > li > a {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 999px) {
+ 	/*.sp.sect2{
+ 		width: 100%;
+ 		display: flex;
+  		flex-wrap: wrap;
+  		flex-direction: row;
+ 	}
+  
+ 	.sp.sect2 > a {
+ 		display: flex; 
+  		flex-basis: calc(50%);  
+  		justify-content: center;
+  		flex-direction: column;
+ 	}*/
+
+}
+
+}
