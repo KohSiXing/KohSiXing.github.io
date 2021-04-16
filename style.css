@@ -294,6 +294,7 @@ hr{
     background: -o-linear-gradient(to bottom,rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(Images/Map.png) no-repeat center center;
     background: linear-gradient(to bottom,rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(Images/Map.png) no-repeat center center;
     height: 780px; /*Height of the background image*/
+    /*height: 700px; /* Original Height of the background image*/
     color: #FFFFFF;
     text-align: left;
 }
