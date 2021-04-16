@@ -261,7 +261,7 @@ hr{
 	margin-top: 20%;
 }
 
-/*When the area ard the icon is hovered in index page .sp.sect2, the icons will float up*/
+/*When the area ard the icon is hovered in index page .sx.sect2, the icons will float up*/
 .flaticons:hover img{
     -webkit-transform: translate(0,-7px);
     transform: translate(0,-7px);
