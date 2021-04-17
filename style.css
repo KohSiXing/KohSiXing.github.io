@@ -208,8 +208,13 @@ hr{
 .certificate {
   padding: 2% 0;
   margin: 3% 0;
-  border: 3px solid #454545;
+  border: 2px solid #454545;
   border-radius: 50px;
+}
+
+.certificate:hover {
+  border-color: rgb(230,192,123);
+  box-shadow: 0 0 30px rgba(230,192,123,0.5);
 }
 
 .certificate > .info{
@@ -220,9 +225,9 @@ hr{
 }
 
 .certificate > .info > h3 {
-  font-family: 'Calibri';
-  font-style: bold;
-  font-size: 1.5em;
+  color: rgb(230,192,123);
+  font-family: 'caviar_dreamsbold';
+  font-size: 1.3em;
   letter-spacing: 1.5px;
   margin: 0.5% 0;
 }
@@ -232,7 +237,6 @@ hr{
   letter-spacing: 3px;
   line-height: 1.6;
   margin-top: 5px;
-  color: #989898;
 }
 
 .certificate > .info > p {
@@ -244,35 +248,24 @@ hr{
 
 /* Different Types of Certificates*/
 #forensics {
-
-}
-
-#forensics:hover {
-	color: rgb(255,170,0);
-	border-color: rgb(255,170,0);
-	box-shadow: 0 0 30px rgba(255,170,0,0.3);
+	background-image: url("./Images/MGlass.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 130px 130px;
 }
 
 #programming {
-	
-}
-
-#programming:hover {
-	color: rgb(134,194,50);
-	border-color: rgb(134,194,50);
-	box-shadow: 0 0 30px rgba(134,194,50,0.5);
+	background-image: url("./Images/Gears.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 130px 130px;
 }
 
 #security {
-
-}
-
-#security:hover {
-	/* color: rgb(18,172,224);
-	border-color: rgb(18,172,224); */
-	color: rgb(153,216,247);
-	border-color: rgb(153,216,247); 
-	box-shadow: 0 0 30px rgba(153,216,247,0.5);
+	background-image: url("./Images/Crosshair.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 130px 130px;
 }
 
 .flaticons {
