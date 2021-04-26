@@ -175,11 +175,12 @@ footer .sitemap a {
   letter-spacing: 1.5px;
   font-size: 0.7em;
   text-decoration: none;
+  transition: all 0.5s ease-in-out;
 }
 
 footer .sitemap a:hover {
   color: rgb(239, 215, 169);
-  transition: all 0.8s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 footer span {
@@ -211,11 +212,13 @@ hr{
   margin: 3% 0;
   border: 2px solid #454545;
   border-radius: 50px;
+  transition: all 0.4s ease-in-out;
 }
 
 .certificate:hover {
   border-color: rgb(230,192,123);
   box-shadow: 0 0 30px rgba(230,192,123,0.5);
+  transition: all 0.6s ease-in-out;
 }
 
 .certificate > .info{
@@ -481,6 +484,147 @@ hr{
   color: #878787;
 }
 
+/*Skills Page*/
+#programSkills {
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#programSkills > li {
+  display: inline;
+}
+
+
+#programSkills > li > svg {
+  color: rgb(198,157,83);
+  /*background-color: #202020;*/
+  font-size: 3.5em;
+  padding: 1.5%;
+  margin: 5% 10%;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+svg > circle {
+  fill: none;
+  overflow: visible;
+  stroke-width: 50;
+  stroke: rgb(198,157,83); 
+  stroke-dasharray: 3550;
+  stroke-linecap: round;
+}
+
+svg > text {
+  font-size: 3em;
+  font-family: "caviar_dreamsbold";
+  font-weight: 900;
+  color: #000;
+}
+
+#programSkills > li > svg:hover {
+  color: rgba(198,157,83,0);
+  background-color: rgb(198,157,83,0.45);
+  box-shadow: 0 0 50px rgb(198,157,83);
+  transition: all 0.7s ease-in-out;
+}
+
+#Java {
+  stroke-dashoffset: calc(3550 - (3550 * 87.5) / 100);
+}
+
+#Python {
+  stroke-dashoffset: calc(3550 - (3550 * 83) / 100);
+}
+
+#R {
+  stroke-dashoffset: calc(3550 - (3550 * 75) / 100);
+}
+
+#softwareSkills {
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#softwareSkills > li {
+  display: inline;
+}
+
+#softwareSkills > li > svg {
+  color: rgb(198,157,83);
+  background-color: #252525;
+  font-size: 2.5em;
+  padding: 1.5%;
+  margin: 5% 7.5%;
+  border-radius: 50%;
+  transition: box-shadow 0.5s ease-in-out;
+  transition: transform 2s ease-in-out;
+}
+
+#softwareSkills > li > svg:hover {
+  box-shadow: 0 0 50px rgb(230,192,123);
+  transform: rotate(360deg);
+  transition: box-shadow 0.7s ease-in-out;
+  transition: transform 2s ease-in-out;
+}
+
+
+
+#specialty > li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0.5em;
+}
+
+#specialty > .highlight {
+  display: block;
+  height: 1em;
+  border-color: rgb(198,157,83);
+  border-width: 0.1em;
+  border-style: solid;
+}
+
+#specialty > .highlight > div {
+  height: inherit;
+  width: 0;
+  background-color: rgb(198,157,83);
+
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  transition: all 0.8s ease-in-out;
+}
+
+#specialty > .CyberSec:hover ~ .highlight > div {
+  width: 80%;
+  transition: all 1s ease-in-out;
+}
+
+#specialty > .WSec:hover ~ .highlight > div {
+  width: 70%;
+  transition: all 1s ease-in-out;
+}
+
+#specialty > .DForensics:hover ~ .highlight > div {
+  width: 50%;
+  transition: all 1s ease-in-out;
+}
+
+#specialty > .Analytics:hover ~ .highlight > div {
+  width: 70%;
+  transition: all 1s ease-in-out;
+}
+
+.webSkill {
+  display: block;
+  margin: 0 auto;
+}
+
+#wsresponsive{
+  display: none;
+}
 
 @media screen and (max-width: 410px){
 	footer .sitemap li {
@@ -552,6 +696,33 @@ hr{
   .mainnav.responsive > li > a {
     display: block;
   }
+
+  /*Change graph size at Skills page*/
+  #ws {
+    display: none;
+  }
+
+  #wsresponsive{
+    display: block;
+  }
+
+  #programSkills > li > svg {
+    padding: 3%;
+  }
+
+  #softwareSkills > li > svg {
+    padding: 4%;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  #programSkills > li {
+    display: block;
+  }
+
+  #programSkills > li > svg {
+    margin: 15% 4% 15% 0;
+  }
 }
 
 
@@ -571,5 +742,14 @@ hr{
  	}*/
 
 }
+
+@media screen and (max-width: 1150px) {
+  #softwareSkills > li {
+    margin: 5% 7.5%;
+  }
+
+  #softwareSkills > li > svg {
+    padding: 2.5%;
+  }
 
 }
