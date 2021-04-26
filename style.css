@@ -710,6 +710,10 @@ svg > text {
     padding: 3%;
   }
 
+  #softwareSkills > li {
+  	display: block;
+  }
+
   #softwareSkills > li > svg {
     padding: 4%;
   }
