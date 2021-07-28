@@ -35,7 +35,7 @@
 @font-face {
     font-family: 'caviar_dreamsbold_italic';
     src: url('fonts/CaviarDreams_BoldItalic-webfont.eot');
-    src: local('☺')url, ('fonts/CaviarDreams_BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    src: local('☺'), url('fonts/CaviarDreams_BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/CaviarDreams_BoldItalic-webfont.woff') format('woff'),
          url('fonts/CaviarDreams_BoldItalic-webfont.ttf') format('truetype'),
          url('fonts/CaviarDreams_BoldItalic-webfont.svg#caviar_dreamsbold_italic') format('svg');
@@ -291,7 +291,9 @@ hr{
     font-weight: 600;
     border-radius: 50%;
     -webkit-filter: brightness(80%);
-	 filter: brightness(80%);
+	  filter: brightness(80%);
+    transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
 }
 
 .flaticons:hover{
