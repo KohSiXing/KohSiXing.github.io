@@ -287,12 +287,12 @@ hr{
     height: 160px;
     text-align: center;
     color: #D8D8D8;
-    letter-spacing: 2.5px;
+    letter-spacing: 1.5px;
     font-weight: 600;
     border-radius: 50%;
     -webkit-filter: brightness(80%);
 	  filter: brightness(80%);
-    transition: all 0.8s ease-in-out;
+    transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
 }
 
