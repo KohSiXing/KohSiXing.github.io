@@ -251,6 +251,13 @@ hr{
 }
 
 /* Different Types of Certificates*/
+#analytics {
+  background-image: url("./Images/Graph.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130px 130px;
+}
+
 #finance {
   background-image: url("./Images/Money.svg");
   background-repeat: no-repeat;
