@@ -59,6 +59,7 @@
     src: url('fonts/Panton_BlackCaps.otf') format('opentype'),
 }
 
+
 html{
 	background-color: #101010;
 }
@@ -212,13 +213,13 @@ hr{
   margin: 3% 0;
   border: 2px solid #454545;
   border-radius: 50px;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .certificate:hover {
   border-color: rgb(230,192,123);
   box-shadow: 0 0 30px rgba(230,192,123,0.5);
-  transition: all 0.6s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .certificate > .info{
@@ -515,7 +516,6 @@ hr{
 
 #programSkills > li > svg {
   color: rgb(198,157,83);
-  /*background-color: #202020;*/
   font-size: 4.5em;
   padding: 1.5%;
   margin: 5%;
