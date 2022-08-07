@@ -583,18 +583,18 @@ hr{
   transition: all 1s ease-in-out;
 }
 
-#specialty > .WSec:hover ~ .highlight > div {
-  width: 70%;
-  transition: all 1s ease-in-out;
-}
-
 #specialty > .DForensics:hover ~ .highlight > div {
   width: 50%;
   transition: all 1s ease-in-out;
 }
 
 #specialty > .Analytics:hover ~ .highlight > div {
-  width: 70%;
+  width: 65%;
+  transition: all 1s ease-in-out;
+}
+
+#specialty > .MLearn:hover ~ .highlight > div {
+  width: 75%;
   transition: all 1s ease-in-out;
 }
 
