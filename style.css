@@ -433,6 +433,27 @@ hr{
   background-color: rgb(191,147,64);
 }
 
+.btnProfile {
+  color: rgb(230,192,123);
+  background-color: rgba(0,0,0,0);
+  border: 2px solid #454545;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.15em;
+  font-weight: bold;
+  margin: 5px 20px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in;
+}
+
+.btnProfile:hover {
+  border-color: rgb(230,192,123);
+  box-shadow: 0 0 30px rgba(230,192,123,0.5);
+  transition: all 0.7s ease-in-out;
+}
+
 .ball:hover {
   -webkit-transform: scale(1.25);
   transform: scale(1.25);
@@ -500,6 +521,7 @@ hr{
 .year {
   color: #878787;
 }
+
 
 /*Skills Page*/
 #programSkills {
