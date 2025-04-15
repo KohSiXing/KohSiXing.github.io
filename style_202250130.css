@@ -77,7 +77,6 @@ h1 {
 }
 
 h2 {
-  clear: both; /* Mainly for Certificate Page */
   font-family: "Arial Black";
   margin-top: 0;
   margin-bottom: 30px;
@@ -209,7 +208,7 @@ hr{
 	align-items: center;
 }
 
-/*.certificate {
+.certificate {
   padding: 2% 0;
   margin: 3% 0;
   border: 2px solid #454545;
@@ -221,46 +220,11 @@ hr{
   border-color: rgb(230,192,123);
   box-shadow: 0 0 30px rgba(230,192,123,0.5);
   transition: all 0.7s ease-in-out;
-}*/
-
-.certificate {
-  float: left;
-  width: 22%;
-  height: 350px;
-  padding: 3% 1%;
-  margin: 30px;
-  border: 1px solid #454545;
-  border-radius: 20px;
-  transition: all 0.5s ease-in-out;
-  background: linear-gradient(300deg, rgba(230, 192, 123, 0.8), rgba(230, 192, 123, 0.01) 30%),
-  linear-gradient(330deg, rgba(230, 192, 123, 0.8), rgba(230, 192, 123, 0.01) 30%),
-  linear-gradient(0deg, rgba(230, 192, 123, 0.8), rgba(230, 192, 123, 0.01) 20%),
-  linear-gradient(125deg, rgba(200, 200, 200, 0.4), rgba(200, 200, 200, 0) 15%);
-}
-
-.certificate:hover {
-  border-color: rgb(230,192,123);
-  box-shadow: 0 0 35px rgba(230,192,123,0.7);
-  transition: all 0.7s ease-in-out;
-}
-
-.certificate > img{
-  display: block;
-  text-align: left;
-  width: 45px;
-  margin: -4% 0 4% 4%;
-  padding: 2%;
-  /*background-color: #000;*/
-  background: conic-gradient(from 20deg, #000, #050505, #101010);
-  border-radius: 50%;
-  box-shadow: -4px -4px 15px rgba(255,255,255,0.4);
-  filter: brightness(180%);
 }
 
 .certificate > .info{
   display: block;
   text-align: left;
-  margin-top: 15%;
   margin-left: 2%;
   padding: 2%;
 }
@@ -268,28 +232,27 @@ hr{
 .certificate > .info > h3 {
   color: rgb(230,192,123);
   font-family: 'caviar_dreamsbold';
-  font-size: 1.12em;
-  letter-spacing: 1.3px;
+  font-size: 1.3em;
+  letter-spacing: 1.5px;
   margin: 0.5% 0;
 }
 
 .certificate > .info > h4 {
   font-family: 'Champagne &amp; Limousines';
-  font-size: 0.9em;
-  letter-spacing: 2.5px;
+  letter-spacing: 3px;
   line-height: 1.6;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .certificate > .info > p {
   font-family: 'Calibri';
   font-style: oblique;
   color: #656565;
-  margin: 10px 0 0 0;
+  margin: 0;
 }
 
 /* Different Types of Certificates*/
-/*.analytics {
+.analytics {
   background-image: url("./Images/Graph.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -322,7 +285,7 @@ hr{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 130px 130px;
-}*/
+}
 
 .flaticons {
 	font-family: 'caviar_dreamsbold';
