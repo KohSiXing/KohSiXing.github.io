@@ -233,8 +233,8 @@ hr{
   border-radius: 20px;
   transition: all 0.5s ease-in-out;
   background: linear-gradient(300deg, rgba(230, 192, 123, 0.8), rgba(230, 192, 123, 0.01) 30%),
-  linear-gradient(330deg, rgba(230, 192, 123, 0.8), rgba(230, 192, 123, 0.01) 30%),
-  linear-gradient(0deg, rgba(230, 192, 123, 0.8), rgba(230, 192, 123, 0.01) 20%),
+  linear-gradient(340deg, rgba(230, 192, 123, 0.8), rgba(230, 192, 123, 0.01) 35%),
+  linear-gradient(20deg, rgba(230, 192, 123, 0.8), rgba(230, 192, 123, 0.01) 20%),
   linear-gradient(125deg, rgba(200, 200, 200, 0.4), rgba(200, 200, 200, 0) 15%);
 }
 
@@ -254,7 +254,7 @@ hr{
   background: conic-gradient(from 20deg, #000, #050505, #101010);
   border-radius: 50%;
   box-shadow: -4px -4px 15px rgba(255,255,255,0.4);
-  filter: brightness(180%);
+  filter: brightness(300%);
 }
 
 .certificate > .info{
